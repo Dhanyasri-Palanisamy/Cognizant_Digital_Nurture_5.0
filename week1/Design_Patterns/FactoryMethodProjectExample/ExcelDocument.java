@@ -3,6 +3,7 @@
 public class ExcelDocument implements Document {
     @Override
     public void open(){
-        System.out.println("openin ExcelDocument");
+        System.out.println("");
+        System.out.println("opening Excel Document");
     }
 }

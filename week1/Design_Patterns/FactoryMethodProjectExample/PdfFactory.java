@@ -1,8 +1,8 @@
 //package week1.Design_Patterns.FactoryMethodProjectExample;
 
 public class PdfFactory extends DocumentFactory {
-    
-    public Document createDocument(){
+    @Override
+    public Document CreateDocument(){
         return new PdfDocument();
     }
     

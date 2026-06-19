@@ -3,6 +3,7 @@
 public class PdfDocument implements Document{
     @Override
     public void open(){
-        System.out.print("opening the pdf document");
+        System.out.println("opening the pdf document");
+        System.out.println();
     }
 }
