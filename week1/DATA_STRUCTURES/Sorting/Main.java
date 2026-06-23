@@ -35,5 +35,12 @@ public class Main {
         sol.mergeSort(arr, 0, n-1);
          System.out.println("After MergeSort "+Arrays.toString(arr));
         //System.out.println(Arrays.toString(arr));
+
+         for(int i=0;i<n;i++){
+            arr[i]=rand.nextInt(50,61);
+        }
+        System.out.println("before Quick Sort "+Arrays.toString(arr));
+        sol.quickSort(arr, 0, n-1);//Sort(arr, 0, n-1);
+         System.out.println("After Quick Sort "+Arrays.toString(arr));
     }
 }
