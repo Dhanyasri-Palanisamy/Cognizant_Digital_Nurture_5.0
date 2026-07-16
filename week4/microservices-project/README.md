@@ -1,4 +1,4 @@
-# Bank Microservices with API Gateway
+# Microservices with API Gateway for bank System
 
 This project contains 4 independent Spring Boot Maven projects matching the
 lab exercise: Account service, Loan service, Eureka Discovery Server, and an
